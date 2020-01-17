@@ -1,0 +1,81 @@
+<html>
+  <head lang="EN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALGORITHMS THE EASY WAY BY JUAN MUNOZ GUTIERREZ</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <script src="stackQueue.js" defer></script>
+  </head>
+
+  <body>
+
+    <h1>ALGORITHMS THE EASY WAY BY JUAN MUNOZ GUTIERREZ</h1>
+
+
+    <div class="forms">
+      <div class="container">
+          INSERT NEW ELEMENT: <input type="text" id="elementInputText"/> <button id="insertElementBtn">INSERT</button>
+          <br>
+          INSERT ELEMENT SORTED: <input type="text" id="elementSortedInputText"/> <button id="insertSortedBtn">INSERT SORTED</button>
+          <br>
+          SEARCH ELEMENT BY LINEAR SEARCH: <input type="text" id="linearSearchElement"/> <button id="linearSearchBtn">LINEAR SEARCH</button>
+          <br>
+          SEARCH ELEMENT BY BINARY SEARCH: <input type="text" id="binarySearchElement"/> <button id="binarySearchBtn">BINARY SEARCH</button>
+          <br>
+          SEARCH ELEMENT BY RECURSIVE BINARY SEARCH: <input type="text" id="recursiveBinarySearchElement"/> <button id="recursiveBinarySearchBtn">RECURSIVE BINARY SEARCH</button>
+          <br>
+          POPULATE ARRAY WITH <input id="numElArray" type="text" /> ELEMENTS: <button id="populateArrayBtn">POPULATE ARRAY</button>
+          <h2>SIMPLE SORTING</h2>
+          <button id="bubbleSortBtn">BUBBLE SORT</button>
+          <br>
+          <button id="selectionSortBtn">SELECTION SORT</button>
+          <br>
+          <button id="insertionSortBtn">INSERTION SORT</button>
+          <br>
+          <h2>Stacks</h2>
+          PUSH ELEMENT: <input id="stackElementInputText" type="text" /> <button id="pushBtn">PUSH</button>
+          <br>
+          <button id="popBtn">POP</button>
+          <br>
+
+          <h2>Queue</h2>
+          QUEUE SIZE: <input id="sizeQueueInputText" type="text" />
+          <br>
+          INSERT ELEMENT: <input id="queueElementInputText" type="text" /> <button id="insertBtn">INSERT</button>
+          <br>
+          <button id="removeBtn">REMOVE</button>
+          <br>
+
+      </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+          CURRENT VALUES:
+          <div class="values" id="currentValues">
+          </div>
+          LINEAR SEARCH:
+          <div id="linearSearchresult">
+          </div>
+          BINARY SEARCH:
+          <div id="binarySearchresult">
+          </div>
+          RECURSIVE BINARY SEARCH:
+          <div id="recursiveBinarySearchresult">
+          </div>
+          SHOW STACK:
+          <div id="stackResult">
+          </div>
+          SHOW QUEUE:
+          <div id="queueResult">
+          </div>
+          <span>FRONT: </span><span id="currentFront"></span> <span>REAR: </span> <span id="currentRear"></span>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>

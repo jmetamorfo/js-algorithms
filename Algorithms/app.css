@@ -1,0 +1,38 @@
+.forms {
+  float: left;
+  width: 50%;
+  min-height: 200px;
+}
+
+.forms .container {
+  border: 2px solid green;
+  padding: 20px;
+  min-height: 200px
+}
+
+.content {  
+  float: left;
+  width: 50%;
+  min-height: 200px;
+}
+
+.content .container {
+  border: 2px solid blue;
+  padding: 20px;
+  min-height: 200px
+}
+
+.values {
+  word-break: break-all;
+}
+
+.stack-element {
+  display: inline-block;
+  background: green;
+  width: 26px;
+  height: 26px;
+  font-size: 27px;
+  padding: 39px;
+  border: 2px white solid;
+}
+
